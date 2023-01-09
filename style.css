@@ -20,17 +20,32 @@ p{
   color:white;
 }
 
+.about{
+  color: white;
+  display:flex;
+  justify-content:center ;
+  word-wrap:break-word ;
+  width:150px ;
+  border:1px  ;
+}
+
+
+
 ul{
   list-style:none ;
   margin: 0;
   padding: 0;
-  border-style: solid;
+  border:2px solid;
+  
+  border-radius: 25px;
   
 
 }
 
 li{
   color:white ;
-  display: inline;
-  padding:30px;
+  display: inline,flex;
+  text-align:center ;
+  padding: 10px;
+  
 }
