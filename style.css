@@ -49,3 +49,11 @@ li{
   padding: 10px;
   
 }
+
+
+.me{
+  display: flex;
+  justify-content: flex-start;
+  width: 50%;
+  
+}
