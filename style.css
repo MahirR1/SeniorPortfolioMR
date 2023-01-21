@@ -23,10 +23,9 @@ p{
 .about{
   color: white;
   display:flex;
-  justify-content:center ;
-  word-wrap:break-word ;
-  width:150px ;
-  border:1px  ;
+  justify-content:flex-start ;
+  
+
 }
 
 
@@ -51,7 +50,7 @@ li{
 }
 
 
-.me{
+.profile{
   display: flex;
   justify-content: flex-start;
   width: 50%;
@@ -64,3 +63,25 @@ a{
   text-align:center ;
   padding: 10px;
 }
+
+.area-calc{
+  display: flex;
+  justify-content:flex-start ;
+  width: 30%;
+}
+
+
+.zom{
+  display: flex;
+  justify-content:flex-start ;
+  width: 30%;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+
